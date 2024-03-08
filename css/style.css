@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+.parent{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    margin-left: 350px;
+}
+.child{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    margin-left: 100px;
+}
+
+button{
+    border: none;
+    background-color: rgb(63, 74, 232);
+    text-align: center;
+    border-radius: 50%;
+    padding: 20px 25px;
+    display: inline-block;
+    color: azure;
+    transition: o.4s;
+}
+.btn:hover{
+    background-color:rgb(63, 74, 232);
+    color: azure;
+    border: 3px solid rgb(138, 145, 238);
+}
+h3{
+    text-decoration: wavy underline;
+    width: fit-content;
+    font-size: 20px;
+    color: rgb(88, 6, 120);
+    text-transform: capitalize;
+}
